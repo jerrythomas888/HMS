@@ -1,0 +1,119 @@
+body {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+header.hmshead {
+  position: relative;
+  background-color: #343a40;
+  background: url("../images/back1.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+header.hmshead .overlay {
+  position: absolute;
+  background-color: #212529;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+}
+
+header.hmshead h1 {
+  font-size: 2rem;
+}
+
+@media (min-width: 768px) {
+  header.hmshead {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+  header.hmshead h1 {
+    font-size: 3rem;
+  }
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(72, 168, 69);
+}
+
+.navbar-brand {
+  font-size: 2.0rem;
+}
+
+.navbar-light .navbar-brand {
+  color: rgb(72, 168, 69);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+  border: 1px solid #48a845;
+}
+
+.fndDoctor {
+  min-width: 180px;
+  width: 210px;
+  height: 48px;
+  color: #fff;
+}
+
+.organs {
+    border: 1px solid #48a845;
+    margin: 0.5rem;
+    padding: 0.5rem 0.9rem;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 4px;
+    transition: font-size 1s;
+    min-width: 75px;
+}
+
+.organs:hover {
+  background-color: #48a845;
+  color: #fff;
+  font-size: 20px;
+}
+
+.btn-link {
+  color: #48a845;
+}
+
+.btn-link:hover {
+  color: #838e82;
+}
+
+a {
+  color: #48a845;
+}
+
+a:hover {
+  color: #838e82;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.3rem;
+    padding-left: 1.3rem;
+    font-size: 17px;
+  }
+  .back {
+    background-color: #48a845;
+    color: #fff;
+  }
+}
+
+footer.footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
